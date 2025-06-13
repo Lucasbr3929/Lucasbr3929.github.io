@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes de Notícias</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #007bff;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+                color: white;
+                font-size-adjust: 1;
+                font-family: nougat;
+        }
+        a:hover {
+                color: red;
+                font-family: cursive;
+        }
+        nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+        nav i {
+            margin-right: 8px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #d10000;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #fff;
+        }
+        p {
+            color: #fff;
+        }
+        .news-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .news-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #333; 
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+            font-size: 28px;
+            transition: background-color 0.3s ease;
+        }
+        .news-links a:hover {
+            background-color: #007bff;
+        }
+        .news-links .youtube { background-color: #FF0000; }
+        .news-links .brawlstarsdicas { background-color: #004D9B; }
+        .news-links .supercell {
+            background-color: #000;
+        }
+        .supercell img {
+            width: 50px; 
+            height: 50px;
+        }
+        .news-links .text {
+            color: #fff;
+            font-size: 14px;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .news-links .item {
+            display: flex;
+            align-items: center;
+        }
+        .brawlstarsdicas img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"></i>Voltar</a>
+    </nav>
+
+    <div class="container">
+        <h1>Fontes de Notícias</h1>
+        <p>Acompanhe as últimas notícias sobre Brawl Stars:</p>
+
+        <div class="news-links">
+            <div class="item">
+                <a href="https://www.youtube.com/@TioGusOficial" target="_blank" class="youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <span class="text">Se informe mais pelo YouTube</span>
+            </div>
+
+            <div class="item">
+                <a href="https://www.brawlstarsdicas.com.br/noticias/" target="_blank" class="brawlstarsdicas">
+                    <img src="https://pbs.twimg.com/profile_images/1206978061348028423/LwTcFTSS_400x400.jpg" alt="Brawl Stars Dicas">
+                </a>
+                <span class="text">Confira as notícias no Brawl Stars Dicas</span>
+            </div>
+
+            <div class="item">
+                <a href="https://supercell.com/en/games/brawlstars/blog/" target="_blank" class="supercell">
+                    <img src="https://cdn.supercell.com/supercell.com/221213073743/supercell.com/files/supercell-logo-white-transp.png" alt="Supercell">
+                </a>
+                <span class="text">Blog oficial da Supercell</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
